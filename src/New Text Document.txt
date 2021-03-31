@@ -1,0 +1,40 @@
+<Button onClick={()=>{setstate1(true)}}variant="outlined" color="secondary">click</Button>
+
+
+
+      <FormControlLabel
+      control={<Checkbox  color="primary"/>}
+      label="sanan"
+      />
+
+
+<FormControlLabel
+
+control={<Radio />} label="sanan"/>
+      
+
+      <FormControlLabel
+      control={<Switch color="primary"/>}
+      label="sanan"
+      />
+
+
+      <TextField color="secondary" placeholder="sanan" variant="outlined" label="sanan"/>
+      
+
+      <Select value={state} onChange={(e)=>{setstate(e.target.value)}}>
+        <MenuItem  value="sanan">sanan</MenuItem>
+        <MenuItem value="esar">esar</MenuItem>
+        <MenuItem value="abdulhaq">abdulhaq</MenuItem>
+      </Select>
+
+
+
+
+      <Menu open={state1}>
+
+        <MenuItem onClick={hidde}>gbnjsdjkl</MenuItem>
+        <MenuItem>gbnjsdjkl</MenuItem>
+        <MenuItem>gbnjsdjkl</MenuItem>
+      </Menu>
+    
